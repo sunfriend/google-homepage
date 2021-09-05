@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1.rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited,
+a:active {
+    color: black;
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.navbar-list {
+    display: flex;
+}
+
+.navbar-list__item {
+    margin: 0 1rem;
+}
+
+.logo-image {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.sing-in__btn {
+    background: #77f;
+    padding: 6px;
+    margin-top: -6px;
+    border-radius: 3px;
+}
+
+.sing-in__btn:hover {
+    cursor: pointer;
+    background: #88f;
+}
+
+.sing-in__btn a{
+    color: white;
+    border: none;
+}
+
+.form-input__container {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.form-input__border {
+    border: 1px solid black;
+    border-radius: 20px;
+    border: .1px solid rgba(0, 0, 0, .3);
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form-input__container input[type="text"]{
+    border: none;
+    width: 82%;
+    outline: none;
+    padding: 10px 3px;
+    font-size: 1.1rem;
+}
+
+.form-input__border:hover {
+    box-shadow: 0 0 5px .3px rgba(0, 0,0, .3);
+}
+
+.form-input__container button {
+    border: none;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 3px;
+}
+
+.form-input__container button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px .3px rgba(0, 0,0, .3);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background: rgb(236, 236, 236);
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+
+.footer-list li{
+    display: inline-block;
+    margin: 0 20px;
+}
